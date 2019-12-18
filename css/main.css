@@ -1,0 +1,137 @@
+
+
+
+h5{ font-weight:700; height:25px}
+.area_social {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  margin-bottom: 30px; }
+  .area_social div {
+    margin: 0; }
+  .area_social .area_social_top {
+
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .area_social .area_social_top p {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding-top: 5%;
+      margin: 0; }
+    .area_social .area_social_top .socail_row {
+      width: 100%;
+      padding: 2%;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 0rem; }
+      .area_social .area_social_top .socail_row div {
+        display: inline-block; }
+      .area_social .area_social_top .socail_row .socail_row_logo {
+        width: 15%; }
+        .area_social .area_social_top .socail_row .socail_row_logo img {
+          max-width: 65px; }
+      .area_social .area_social_top .socail_row .socail_row_info {
+        width: 50%;
+        text-align: left;
+        vertical-align: top; }
+        .area_social .area_social_top .socail_row .socail_row_info h5 {
+          padding: 0;
+          margin: 0;
+          font-size: 1.6rem;
+          margin-bottom: .2rem;
+          margin-top: .2rem; }
+        .area_social .area_social_top .socail_row .socail_row_info h6 {
+          padding: 0;
+          margin: 0;
+          margin-bottom: .5rem;
+          font-size: 1.2rem;
+          font-weight: normal; }
+      .area_social .area_social_top .socail_row .socail_row_button {
+	  font-size:15px;
+        width: 32%;
+        vertical-align: centern;
+        margin-top: .5rem; }
+        .area_social .area_social_top .socail_row .socail_row_button a {
+          border: 0.5px solid #EEEEEE;
+          border-radius: 7px;
+          text-align: center;
+          display: block;
+         
+          padding: .5rem 0;
+          width: 100%;
+          -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+          -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
+  .area_social .area_social_bottom {
+    text-align: center;
+	margin-top:12px;
+    padding: 4%;
+    background: #DEDDDE;
+    color: #2F2930;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+    .area_social .area_social_bottom h6 {
+      margin: 0;
+      font-size: 1rem;
+      letter-spacing: 0px;
+      font-weight: normal;
+      margin-top: 10px; }
+    .area_social .area_social_bottom a {
+      color: #2F2930;
+      position: relative;
+      padding-bottom: 5px; }
+      .area_social .area_social_bottom a:before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #2F2930;
+        height: 1px; }
+
+
+
+@media (max-width: 600px) {
+  .navigationBar a.button_download {
+    right: 10px;
+    top: 16%;
+    padding: 1.6rem 1rem; }
+
+  .area_social {
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .area_social .area_social_top p {
+      font-size: .8rem;
+      padding-top: 5%; }
+    .area_social .area_social_top .socail_row {
+      padding: 5%; }
+      .area_social .area_social_top .socail_row .socail_row_logo {
+        width: 20%; }
+        .area_social .area_social_top .socail_row .socail_row_logo img {
+          max-width: 45px; }
+      .area_social .area_social_top .socail_row .socail_row_info {
+        width: 42%; }
+        .area_social .area_social_top .socail_row .socail_row_info h5 {
+          font-size: 1.2rem;
+          margin-bottom: 0rem;
+          margin-top: .2rem; }
+        .area_social .area_social_top .socail_row .socail_row_info h6 {
+          margin-bottom: .5rem;
+          font-size: 1rem; }
+      .area_social .area_social_top .socail_row .socail_row_button {
+        width: 32%; }
+        .area_social .area_social_top .socail_row .socail_row_button a {
+          padding: .5rem 0;
+          width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
